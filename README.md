@@ -1,6 +1,6 @@
 # Vue 3 + Typescript + Vite + ElementPlus
 
-在项目开发过程中，因为ElementPlus终于升级到正式版了，故做项目升级，之前用的是`1.2.0-beta.3`，升级到`2.0.2`，后，每个页面进行兼容性修改排查，遇到了一个问题，如图：
+在项目开发过程中，因为ElementPlus终于升级到正式版了，故做项目升级，之前用的是`1.2.0-beta.3`，升级到`2.0.2`，后，每个页面进行兼容性修改排查，遇到了一个问题，[Codesandbox在线演示](https://codesandbox.io/s/filename-bug-qr3r80)，如图：
 
 ![BUG Screenshot](./public/vue-component-filename-same-as-element-plus-bug.png)
 
