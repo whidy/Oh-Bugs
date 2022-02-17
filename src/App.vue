@@ -2,13 +2,18 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 // import HelloWorld from './components/HelloWorld.vue'
-import Dialog from './components/Dialog.vue'
+import MyDialog from './components/El-Dialog.vue'
+import { ElConfigProvider } from 'element-plus'
+const zIndex = 3000
+const size = 'small'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
-  <Dialog></Dialog>
+  <el-config-provider :size="size" :zIndex="zIndex">
+    <MyDialog></MyDialog>
+  </el-config-provider>
 </template>
 
 <style>
